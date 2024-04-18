@@ -1,0 +1,44 @@
+.Hero_image {
+    background:url("https://i.pinimg.com/originals/eb/d5/51/ebd5513d8331f473456f9b38fba8e302.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 50%;
+}
+
+.Book_btn {
+    background-color: var(--red);
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+.Book_btn:hover {
+    background: white;
+    color: var(--red);
+}
+.Hero_text  {
+    font-family: var(--font2);
+    font-size: 5rem;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+  }
+
+
+@media screen and (max-width: 728px) {
+    .Hero_image {
+        width: 100%;
+    }
+    .Hero_text {
+        font-size: 3rem;
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Hero_image {
+        display: none;
+        width: 100%;
+    }
+}
+

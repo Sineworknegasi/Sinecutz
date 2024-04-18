@@ -1,0 +1,5 @@
+.Price_section .Image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
