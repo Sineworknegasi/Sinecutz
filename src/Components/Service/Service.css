@@ -1,0 +1,47 @@
+.service_section ul {
+    width: 100%;
+}
+.btn-group {
+    width: 80%;
+}
+.service_section .dropdownbtn {
+    background-color: var(--primary-bgcolor);
+    color: white;
+    width: 100%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+.service_section table {
+    width: 100%;
+}
+.service_section tr {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.service_section th {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service_section span {
+    color: var(--red);
+    font-weight: bold;
+}
+
+.service_section .dropdownbtn:focus {
+    background-color: var(--red);
+}
+
+.show {
+    width: 500px
+}
+.service_section img {
+    width: 100%;
+}

@@ -1,5 +1,37 @@
+.Price_section {
+    font-family: "roboro";
+}
 .Price_section .Image {
     height: 100%;
     width: 100%;
+    padding: 0;
+    margin: 0;
     object-fit: contain;
+}
+
+.Price_section span {
+    color: var(--red);
+    font-weight: 700;
+}
+.single-barber {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+
+}
+table {
+    width: 100%;
+    font-family: "poppins", sans-serif;
+}
+tr {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+td {
+    font-size: 1.2rem;
+    font-weight: 500;
 }
