@@ -1,5 +1,15 @@
+.service_section .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    
+}
+
 .service_section ul {
     width: 100%;
+    border: none;
 }
 .btn-group {
     width: 80%;
@@ -7,7 +17,8 @@
 .service_section .dropdownbtn {
     background-color: var(--primary-bgcolor);
     color: white;
-    width: 100%;
+    width: 80%;
+    padding: 20px 10px 21px 34px;
     text-align: left;
     font-family: "Poppins", sans-serif;
     border: none;
@@ -17,12 +28,15 @@
     font-weight: 700;
 }
 .service_section table {
-    width: 100%;
+    width: 80%;
+    border: none;
+    transition: all 0.4s ease;
 }
+
 .service_section tr {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    font-family: "Poppins", sans-serif;
 }
 .service_section th {
     width: 100%;
@@ -40,8 +54,8 @@
 }
 
 .show {
-    width: 500px
+    width: 100%
 }
 .service_section img {
-    width: 100%;
+    width: 80%;
 }

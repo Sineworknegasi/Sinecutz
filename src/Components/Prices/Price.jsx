@@ -29,7 +29,7 @@ const images = [
 
 const Price = () => {
   return (
-    <section className="Price_section">
+    <section className="Price_section container-fluid">
       <div className="row d-flex justify-content-center align-items-center">
         <div className="col-md-6 row flex-wrap">
             {images}

@@ -1,5 +1,5 @@
 .Price_section {
-    font-family: "roboro";
+    font-family: "roboto",sans-serif;
 }
 .Price_section .Image {
     height: 100%;
@@ -20,7 +20,7 @@
 
 }
 table {
-    width: 100%;
+    width: 80%;
     font-family: "poppins", sans-serif;
 }
 tr {

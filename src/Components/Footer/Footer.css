@@ -1,0 +1,7 @@
+.Footer_section {
+    background:  var(--primary-bgcolor);
+    color: white;
+}
+.Footer_section ul {
+    list-style: none;
+}

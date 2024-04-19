@@ -1,0 +1,10 @@
+
+.section_testimonial img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.testimonial_comments {
+    background-color: rgb(241, 219, 219);
+}

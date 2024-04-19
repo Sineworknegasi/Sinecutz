@@ -6,6 +6,9 @@ import Hero from './Components/Hero/Hero';
 import About from './Components/About/About';
 import Price from './Components/Prices/Price';
 import Service from './Components/Service/Service';
+import Catagories from './Components/Catagories/Catagories';
+import Testimonial from './Components/Testimonial/Testimonial';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
     <About/>
     <Price/>
     <Service/>
+    <Catagories/>
+    <Testimonial/>
+    <Footer/>
     </>
   );
 }
