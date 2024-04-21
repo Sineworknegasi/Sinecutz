@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
         </div>
         <div className=" d-flex flex-sm-row flex-column justify-content-between align-items-center">
-            <p className=" fs-5">copyright© reserved {new Date().getFullYear()} developed by Sinework</p>
+            <p className=" fs-6">copyright© reserved {new Date().getFullYear()} developed by Sinework</p>
             <ul className=" d-flex justify-content-between gap-4 list-unstyled fs-2">
               <li className=" btn btn-outline-danger fs-3  ">
                 <FaFacebook />

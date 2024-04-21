@@ -6,6 +6,17 @@
   --font2:"Poppins", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #FB0000;
+  border-radius: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #150303;
+}
+
 * {
   margin: 0;
   padding: 0;
