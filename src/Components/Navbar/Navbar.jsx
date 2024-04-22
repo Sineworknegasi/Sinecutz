@@ -4,7 +4,7 @@ import { GiBeard } from "react-icons/gi";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <section className="bg-primary2 position-fixed w-100">
+    <section className="bg-primary2 position-fixed w-100 z-3">
       <nav className="navbar navbar-expand-lg navbar-light container d-flex justify-content-between py-3">
         <a className=" text-decoration-none fs-4 fw-bolder d-flex align-items-center " href="#e">
             <GiBeard className=" fs-1 Logo_icon"/>

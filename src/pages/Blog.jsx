@@ -65,7 +65,7 @@ const blogInfo = [
           className="img-fluid position-relative w-100"
         />
         <div
-          className="Blog_date fs-5 red d-flex flex-column justify-content-center align-items-center fw-normal rounded-2 position-absolute translate-middle-y translate-middle-x"
+          className="Blog_date fs-5 red d-flex flex-column justify-content-center align-items-center fw-normal rounded-2 position-absolute translate-middle-y translate-middle-x z-0"
           style={{ width: "90px", height: "90px", lineHeight: "30px" }}
         >
           <span className="fs-2 fw-bolder">
