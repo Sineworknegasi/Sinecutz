@@ -4,6 +4,7 @@
   --red:#FB0000;
   --font1:"Roboto", sans-serif;
   --font2:"Poppins", sans-serif;
+  --bg:#FBF9FF;
 }
 
 ::-webkit-scrollbar {
@@ -43,12 +44,22 @@
 }
 .titles::before {
   content: " ";
-  width: 20%;
+  width: 100px;
   top: 0;
   position: absolute;
   left:0;
   height: 0.3rem;
   background: red;
   transition: all 0.5s ease-in-out;
+}
+.page {
+  font-family: "Roboto",sans-serif;
+  color: grey;
+}
+
+@media screen and (max-width: 426px) {
+  .titles {
+    font-size: 1.8rem;
+  }
 }
 

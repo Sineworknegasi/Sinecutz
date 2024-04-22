@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import Navbar from "./Components/Navbar/Navbar";
@@ -19,8 +19,8 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <>
-      <Navbar />
-      <BrowserRouter>
+      <Router>
+        <Navbar />
         <Routes>
           <Route
             path="/"
@@ -34,12 +34,11 @@ function App() {
                 <Testimonial />
               </>
             }
-          ></Route>
+          />
           <Route
-            path="about"
+            path="/about"
             element={
               <>
-                {" "}
                 <AboutUS />
                 <About />
                 <Price />
@@ -49,21 +48,24 @@ function App() {
               </>
             }
           />
-          <Route path="services" element={
-          <>
-           <Services />
-           <Service />
+          <Route
+            path="/services"
+            element={
+              <>
+                <Services />
+                <Service />
+                <Price />
                 <Catagories />
                 <Testimonial />
-          </>
-         } />
-          <Route path="gallary" element={<Gallary />} />
-          <Route path="blog" element={<Blog />} />
-          <Route path="contact" element={<Contact />} />
+              </>
+            }
+          />
+          <Route path="/gallary" element={<Gallary />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
-      </BrowserRouter>
-
-      <Footer />
+        <Footer />
+      </Router>
     </>
   );
 }

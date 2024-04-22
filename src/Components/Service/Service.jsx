@@ -10,8 +10,8 @@ const Service = () => {
         <div className=" col-12 col-sm-6 col-md-6">
           <p className="titles">ALL WE DO FOR YOU</p>
           <div id="accordion">
-          <button className="dropdownbtn my-3" id="hairbtn" type="button" data-bs-toggle="collapse" data-bs-target="#hairtable">For Hair <IoMdArrowDropdown/></button>
-          <table id="hairtable" class="collapse show" data-bs-parent="#accordion">
+          <button className="dropdownbtn my-3 w-100" id="hairbtn" type="button" data-bs-toggle="collapse" data-bs-target="#hairtable">For Hair <IoMdArrowDropdown/></button>
+          <table id="hairtable" class="collapse show w-100" data-bs-parent="#accordion">
             <thead>
               
             </thead>
@@ -35,8 +35,8 @@ const Service = () => {
             </tbody>
 
           </table>
-          <button className="dropdownbtn my-3" id="hairbtn" type="button" data-bs-toggle="collapse" data-bs-target="#beardtable" >For Beard <IoMdArrowDropdown/></button>
-          <table id="beardtable" data-bs-parent="#accordion">
+          <button className="dropdownbtn my-3 w-100" id="hairbtn" type="button" data-bs-toggle="collapse" data-bs-target="#beardtable" >For Beard <IoMdArrowDropdown/></button>
+          <table id="beardtable" data-bs-parent="#accordion" className="w-100" >
             <thead>
               
             </thead>

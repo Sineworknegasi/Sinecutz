@@ -1,9 +1,10 @@
 import React from "react";
 import "./Navbar.css";
 import { GiBeard } from "react-icons/gi";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <section className="bg-primary2">
+    <section className="bg-primary2 position-fixed w-100">
       <nav className="navbar navbar-expand-lg navbar-light container d-flex justify-content-between py-3">
         <a className=" text-decoration-none fs-4 fw-bolder d-flex align-items-center " href="#e">
             <GiBeard className=" fs-1 Logo_icon"/>
@@ -19,24 +20,24 @@ const Navbar = () => {
         </button>
         <div class="collapse navbar-collapse align-items-center justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav ">
-            <a class="nav-item text-center mx-3 text-decoration-none fs-5 " href="#e">
+            <Link class="nav-item text-center mx-3 text-decoration-none fs-6 py-2 py-sm-0 py-md-0 " to="/">
               Home
-            </a>
-            <a class="nav-item text-center mx-3 text-decoration-none fs-5" href="#e">
+            </Link>
+            <Link class="nav-item text-center mx-3 text-decoration-none fs-6 py-2 py-sm-0 py-md-0 " to="/about">
               About
-            </a>
-            <a class="nav-item text-center mx-3 text-decoration-none fs-5 " href="#e">
+            </Link>
+            <Link class="nav-item text-center mx-3 text-decoration-none fs-6 py-2 py-sm-0 py-md-0  " to="/services">
               Services
-            </a>
-            <a class="nav-item text-center mx-3  text-decoration-none fs-5" href="#e">
+            </Link>
+            <Link class="nav-item text-center mx-3  text-decoration-none fs-6 py-2 py-sm-0 py-md-0 " to="/gallary">
               Gallary
-            </a>
-            <a class="nav-item text-center mx-3 text-decoration-none fs-5 " href="#e">
+            </Link>
+            <Link class="nav-item text-center mx-3 text-decoration-none fs-6 py-2 py-sm-0 py-md-0  " to="/blog">
               Blog
-            </a>
-            <a class="nav-item text-center mx-3 text-decoration-none fs-5 " href="#d">
+            </Link>
+            <Link class="nav-item text-center mx-3 text-decoration-none fs-6 py-2 py-sm-0 py-md-0  " to="/contact">
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

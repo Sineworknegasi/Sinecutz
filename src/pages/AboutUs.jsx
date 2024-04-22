@@ -4,11 +4,10 @@ import Title from './Title'
 
 
 
-const AboutUs = async() => {
-  return await (
-    <section>
-        <Title brand="About" />
-    </section>
+const AboutUs = () => {
+  return (
+    
+        <Title brand="About Us" images="https://preview.colorlib.com/theme/narosundar/assets/img/hero/hero1.jpg.webp"/>
   )
 }
 

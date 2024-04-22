@@ -1,12 +1,13 @@
-import React from 'react'
-import Title from './Title'
+import React from "react";
+import Title from "./Title";
 
 const Services = () => {
   return (
-    <div>
-      <Title brand="Services" />
-    </div>
-  )
-}
+    <Title
+      brand="Services"
+      images="https://preview.colorlib.com/theme/narosundar/assets/img/hero/hero2.jpg.webp"
+    />
+  );
+};
 
-export default Services
+export default Services;
